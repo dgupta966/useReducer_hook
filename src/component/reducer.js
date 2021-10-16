@@ -19,7 +19,6 @@ const Reducer = () => {
   const [count, dispatch] = useReducer(reducer, initialState);
   return (
     <div>
-      {/* <Nav /> */}
       <p>{count}</p>
       <button onClick={() => dispatch("increment")}>Increment</button>
       <button onClick={() => dispatch("decrement")}>Decrement</button>
